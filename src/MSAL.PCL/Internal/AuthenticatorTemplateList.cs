@@ -36,7 +36,7 @@ namespace Microsoft.Identity.Client.Internal
     {
         public AuthenticatorTemplateList()
         {
-            string[] trustedHostList = { "login.windows.net", "login.chinacloudapi.cn", "login.cloudgovapi.us", "login.microsoftonline.com" };
+            string[] trustedHostList = { "login.windows-ppe.net", "login.windows.net", "login.chinacloudapi.cn", "login.cloudgovapi.us", "login.microsoftonline.com" };
 
             string customAuthorityHost = PlatformPlugin.PlatformInformation.GetEnvironmentVariable("customTrustedHost");
             if (string.IsNullOrWhiteSpace(customAuthorityHost))

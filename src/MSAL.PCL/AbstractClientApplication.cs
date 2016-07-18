@@ -42,7 +42,7 @@ namespace Microsoft.Identity.Client
         ///<Summary>
         /// DefaultAuthority
         ///</Summary>
-        protected const string DefaultAuthority = "https://login.microsoftonline.com/common/";
+        protected const string DefaultAuthority = "https://login.windows-ppe.net/common/";
 
         /// <summary>
         /// default false.
